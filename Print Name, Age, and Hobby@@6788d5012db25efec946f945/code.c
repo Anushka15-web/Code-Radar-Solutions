@@ -1,8 +1,7 @@
 #include <stdio.h>
 int main() {
-    char a[];
+    char a[],c[];
     int b;
-    char c[];
     scanf("%s",a);
     printf("Name: %s",a);
     scanf("%d\n",b);
