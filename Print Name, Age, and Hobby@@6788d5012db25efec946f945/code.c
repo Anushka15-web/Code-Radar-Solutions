@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    char a[],c[];
+    char a[100],c[100];
     int b;
     printf("Name:");
     scanf("%s",a);
