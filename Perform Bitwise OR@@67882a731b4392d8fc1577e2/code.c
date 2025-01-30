@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int a,b;
+    int a,b,sum;
     scanf("%d %d",&a,&b);
-    int result=bitewiseSum(a+b);
-    print("%d"result);
+    sum=a+b;
+    print("%d",sum);
     return 0;
 }
