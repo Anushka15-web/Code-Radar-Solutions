@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-int a,;
+int a;
 scanf("%d %d",&a);
 if(a>!0){
     printf("True");
