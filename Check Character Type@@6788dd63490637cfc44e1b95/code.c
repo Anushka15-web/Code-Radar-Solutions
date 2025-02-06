@@ -1,23 +1,12 @@
 #include <stdio.h>
-#include<string.h>
-int main() {
-   char ch;
-    char *vowels="aeiouAEIOU";
-   scanf("%c",&ch);
-   if((ch>='a' && ch<='z')||(ch>='A' && ch<='Z')){
-        if(strchr(vowels,ch)!=NULL){
-            printf("Vowel");
-        }
-        else{
-            printf("Consonant");
-        }
-   }
-    else if(ch>='0'&& ch<='9'){
-        printf("Digit");
+int main(){
+    char a;
+    scanf("%s",&a);
+    if(a=="a","e","i","o","u","A","E","I","O","U"){
+        printf("Vowel");
     }
     else{
-        printf("Special Character");
+        printf("Consonant");
     }
-
-    return 0;
+return 0;
 }
