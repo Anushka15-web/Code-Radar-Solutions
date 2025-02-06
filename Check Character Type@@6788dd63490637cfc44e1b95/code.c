@@ -11,7 +11,7 @@ int main(){
         printf("Digit");
     }
     else if(a==@){
-        printf("Special Character")
+        printf("Special Character");
     }
     else {
         printf("Consonant");
