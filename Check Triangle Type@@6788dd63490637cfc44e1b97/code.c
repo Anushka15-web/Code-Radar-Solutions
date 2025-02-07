@@ -10,7 +10,7 @@ int main() {
         printf("Isosceles");
     }
     else{
-        printf("Not a triangle");
+        printf("Scalene");
     }
     return 0;
 }
