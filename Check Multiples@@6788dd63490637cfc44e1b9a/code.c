@@ -3,10 +3,10 @@
 int main() {
     int a,b;
     scanf("%d %d",&a,&b);
-    if ((a%b==0 && a%b==1) ||(b%a==0 && b%a==1 )){
+    if ((b%a==0 && b%a==1 )){
         printf("Yes");
     }
-    else{
+    else if {
         printf("No");
     }
     return 0;
