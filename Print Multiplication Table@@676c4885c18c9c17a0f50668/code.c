@@ -7,6 +7,6 @@ int main() {
     for(int i=1;i<=a;i++){
         mtable*=i
     }
-    printf("%d! * %d = %d",a,i,mtable);
+    printf("%d! = %d",a,mtable);
     return 0;
 }
